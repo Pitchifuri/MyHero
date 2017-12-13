@@ -3,9 +3,11 @@
 @import "helpers/variables";
 @import "helpers/mixins";
 @import "layout/global";
+@import "layout/hero-plugin";
 @import "layout/header";
 @import "pages/main";
 @import "layout/footer";
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 html, body {
 	box-sizing: border-box;

@@ -1,0 +1,71 @@
+
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-cover {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+}
+
+.hero-title {
+  z-index: 5;
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hero-paragraph {
+  z-index: 5;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.dark-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, crimson , #fafafa);
+  opacity: .5;
+
+}
+
+.box1 {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.box2 {
+  position: relative;
+  width: 800px;
+  height: 500px;
+}
